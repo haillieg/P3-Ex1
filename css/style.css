@@ -32,7 +32,6 @@ body {
   position: sticky;
   top: 0;
   border-radius: 0.5rem;
-  border: 10px solid #2f3b03;
 }
 
 .relative {
@@ -40,7 +39,6 @@ body {
   background-color: #021304;
   padding: 2rem;
   border-radius: 0.5rem;
-  background-image: url("https://plus.unsplash.com/premium_photo-1664005877764-122a552ebf2e");
-  background-size: cover;
+  background-color: rgb(6, 13, 14);
   background-position: center;
 }/*# sourceMappingURL=style.css.map */
