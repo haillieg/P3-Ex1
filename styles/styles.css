@@ -8,14 +8,11 @@ body {
   background-color: black;
 }
 
-/* hero-section is 200vh — the extra 100vh beyond the viewport is the scroll
-   range that drives the animation before content sections appear below */
 .hero-section {
   position: relative;
   height: 200vh;
 }
 
-/* wrapper sticks to the top of the viewport while hero-section scrolls past */
 .wrapper {
   position: sticky;
   top: 0;
@@ -24,7 +21,6 @@ body {
   overflow: hidden;
 }
 
-/* layer 1 — background photo */
 .hero-bg {
   position: absolute;
   width: 100%;
@@ -36,7 +32,6 @@ body {
   z-index: 1;
 }
 
-/* layer 2 — centered title text */
 .intro {
   position: absolute;
   z-index: 2;
@@ -55,8 +50,6 @@ body {
   text-align: center;
 }
 
-/* layer 3 — bush frame PNG (transparent center) sits over intro text
-   JS scales it up and fades it out on scroll, zooming into the text */
 .image-container {
   position: absolute;
   width: 100%;
@@ -77,9 +70,7 @@ body {
   transform-origin: center center;
 }
 
-/* scrollable content that appears after the hero animation */
 .content .section {
   width: 100%;
   height: 100vh;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
