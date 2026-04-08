@@ -2,10 +2,14 @@ body {
   background-color: #021304;
 }
 
+.intro {
+  font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
 .Title1, .Title2, .Title3 {
   font-size: clamp(1.25rem, 5vw, 5rem);
   font-weight: 900;
-  font-family: "Exclusive Editorial Regular", serif;
+  font-family: "NoticaSerif", serif;
   color: #fff8e9;
   text-shadow: 4px 4px 6px #2f3b03;
   letter-spacing: 3px;
